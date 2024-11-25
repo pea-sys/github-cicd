@@ -1,7 +1,7 @@
 name: Cross repo
 on: push
 env:
-  TARGET_REPO: another-repo
+  TARGET_REPO: cpu-for-programmer
 jobs:
   checkout:
     runs-on: ubuntu-latest
